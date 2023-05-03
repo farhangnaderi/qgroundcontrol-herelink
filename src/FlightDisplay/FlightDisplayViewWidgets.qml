@@ -168,10 +168,10 @@ Item {
         //anchors.top:            parent.top
         //anchors.topMargin:      QGroundControl.corePlugin.options.instrumentWidget ? (QGroundControl.corePlugin.options.instrumentWidget.widgetTopMargin + _toolsMargin) : 0
         anchors.topMargin:      ScreenTools.defaultFontPixelHeight * 15
-        anchors.margins:        100
+        anchors.margins:         _toolsMargin
         //anchors.right:          parent.right
         //anchors.bottom:         parent.bottom
-        anchors.centerIn:   parent.bottom
+        anchors.centerIn:   parent
         //-------------------------------------------------------
         // Airmap Airspace Control
         AirspaceControl {
