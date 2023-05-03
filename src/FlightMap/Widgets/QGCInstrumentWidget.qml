@@ -63,12 +63,12 @@ Rectangle {
     }
 
     Item {
-        id:                 _valuesItem
-        anchors.topMargin:  ScreenTools.defaultFontPixelHeight / 4
-        anchors.left:        parent.right
-        width:              parent.width
-        height:             _valuesWidget.height/2
-        visible:            widgetRoot.showValues
+        //id:                 _valuesItem
+        //anchors.topMargin:  ScreenTools.defaultFontPixelHeight / 4
+        //anchors.left:        parent.right
+        //width:              parent.width
+        //height:             _valuesWidget.height/2
+        //visible:            widgetRoot.showValues
 
         // Prevent all clicks from going through to lower layers
         DeadMouseArea {
@@ -81,11 +81,11 @@ Rectangle {
         }
 
         PageView {
-            id:                 _valuesWidget
-            anchors.margins:    1
-            anchors.left:       parent.left
-            anchors.right:      parent.right
-            maxHeight:          _availableValueHeight
+            //id:                 _valuesWidget
+           // anchors.margins:    1
+           // anchors.left:       parent.left
+           // anchors.right:      parent.right
+           // maxHeight:          _availableValueHeight
         }
     }
 }
