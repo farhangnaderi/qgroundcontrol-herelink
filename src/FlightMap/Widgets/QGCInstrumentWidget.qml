@@ -65,9 +65,9 @@ Rectangle {
     Item {
         id:                 _valuesItem
         anchors.topMargin:  ScreenTools.defaultFontPixelHeight / 4
-        anchors.top:        parent.bottom
+        anchors.left:        parent.right
         width:              parent.width
-        height:             _valuesWidget.height
+        height:             _valuesWidget.height/2
         visible:            widgetRoot.showValues
 
         // Prevent all clicks from going through to lower layers
