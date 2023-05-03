@@ -170,8 +170,8 @@ Item {
         anchors.topMargin:      ScreenTools.defaultFontPixelHeight * 15
         anchors.margins:        _toolsMargin
         //anchors.right:          parent.right
-        anchors.bottom:         parent.bottom
-        anchors.centerIn:   parent
+        //anchors.bottom:         parent.bottom
+        anchors.centerIn:   parent.bottom
         //-------------------------------------------------------
         // Airmap Airspace Control
         AirspaceControl {
