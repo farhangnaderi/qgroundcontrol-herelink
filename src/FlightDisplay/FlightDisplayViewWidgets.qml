@@ -170,6 +170,7 @@ Item {
         anchors.margins:        _toolsMargin
         //anchors.right:          parent.right
         anchors.bottom:         parent.bottom
+        anchors.centerIn:   parent
         //-------------------------------------------------------
         // Airmap Airspace Control
         AirspaceControl {
